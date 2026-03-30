@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  font-family:-apple-system;
+  background:#000;
+  color:white;
+}
+
+.header{text-align:center;padding:15px;}
+
+.tabs{display:flex;justify-content:space-around;}
+
+.tabs button{
+  background:#111;
+  border:none;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+}
+
+#chat{
+  height:70vh;
+  overflow:auto;
+  padding:10px;
+}
+
+.msg{
+  background:#111;
+  padding:12px;
+  border-radius:20px;
+  margin:8px 0;
+}
+
+.inputBar{
+  display:flex;
+  padding:10px;
+}
+
+input{
+  flex:1;
+  padding:10px;
+  border-radius:20px;
+  border:none;
+}
+
+#avatarVideo{
+  position:fixed;
+  bottom:120px;
+  right:20px;
+  width:140px;
+  border-radius:20px;
+}
